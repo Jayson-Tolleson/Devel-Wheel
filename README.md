@@ -12,6 +12,9 @@ https://drive.google.com/open?id=1_uaSB--4IgL5KOgMLxwsXzowKs2d__3e
 
 
 currently building #1
+![59735207_10157686654492668_3720861117782687744_n](https://user-images.githubusercontent.com/30577311/57265033-6eb7fe00-702a-11e9-8be1-7420237cbbd9.jpg)
+![59601877_10157686501607668_5422389090144223232_o](https://user-images.githubusercontent.com/30577311/57265035-6eb7fe00-702a-11e9-98d8-b3d6a5e44d2a.jpg)
+
 
 
 changes to :  motor.py (soon - wip)
