@@ -11,11 +11,16 @@ GPIO.setup(27, GPIO.OUT) # Connected to STBY
 #drive motor clockwise
 GPIO.output(18, GPIO.HIGH) # Set AIN1 
 GPIO.output(17, GPIO.LOW) # Set AIN2
-#set motor speed
 GPIO.output(4, GPIO.HIGH) # Set PWMA
-#disable standby
-GPIO.output(27, GPIO.HIGH)
+GPIO.output(27, GPIO.HIGH) #disable standby
 time.sleep(5) #run for 5 seconds
+
+#reset all gpio pins
+GPIO.output(18, GPIO.LOW) # Set AIN1 
+GPIO.output(17, GPIO.LOW) # Set AIN2 
+GPIO.output(4, GPIO.LOW) # Set PWMA 
+GPIO.output(27, GPIO.LOW) # Set STBY
+
 #drive motor CCW
 GPIO.output(18, GPIO.LOW) # Set AIN1 
 GPIO.output(17, GPIO.HIGH) # Set AIN2
