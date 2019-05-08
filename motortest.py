@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-
+#working script for a two-wire 12v motor on a tb6612 motor driver with a raspberry pi, forward and reverse by switching the poles
 import time 
 import RPi.GPIO as GPIO
 
